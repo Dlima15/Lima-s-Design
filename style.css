@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+  }
+  
+  .itens-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .itens-header ul {
+    display: inline-flex;
+  }
+  
+  .itens-header li {
+    margin: 0px 40px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header-nav a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+
+  }
+
+  .itens-header a:hover {
+    color: #5454D4;
+    background-color: #f0f0f0;
+    transition: color 0.3s ease-in-out, background-color 0.5s 0.2s;
+  }
+  
+  .button-header button {
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .button-header button:hover {
+    background-color: #5454D4;
+    transition: background-color 0.3s ease-in-out;
+  }
